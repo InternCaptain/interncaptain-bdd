@@ -1,0 +1,23 @@
+{
+  "name": "interncaptain-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": ".\\node_modules\\.bin\\cypress open",
+    "test": "npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InternCaptain/Interncaptain-BDD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InternCaptain/Interncaptain-BDD/issues"
+  },
+  "homepage": "https://github.com/InternCaptain/Interncaptain-BDD#readme",
+  "dependencies": {
+    "cypress": "5.2.0"
+  }
+}
