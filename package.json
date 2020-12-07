@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": ".\\node_modules\\.bin\\cypress open",
-    "test": "npm"
+    "test": "npm",
+    "publish-please": "publish-please",
+    "prepublishOnly": "publish-please guard"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,11 @@
   },
   "homepage": "https://github.com/InternCaptain/Interncaptain-BDD#readme",
   "dependencies": {
-    "cypress": "5.2.0"
+    "cypress": "5.2.0",
+    "cypress-cucumber-preprocessor": "2.5.5",
+    "cosmiconfig": "^7.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
