@@ -1,5 +1,5 @@
 ```
-npm run cypress:open
+npm start
 ```
 
 You may need to run:
